@@ -1,0 +1,5 @@
+steps:
+  - name: ":node:"
+    command: "npm test"
+    env:
+      BUILDKITE_DOCKER_COMPOSE_CONTAINER: "app"
