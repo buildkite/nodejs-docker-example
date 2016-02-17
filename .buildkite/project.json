@@ -1,6 +1,5 @@
 {
   "name": "Node.js Docker Example",
-  "repository": "https://github.com/buildkite/nodejs-docker-example.git",
   "steps": [
     {
       "type": "script",
