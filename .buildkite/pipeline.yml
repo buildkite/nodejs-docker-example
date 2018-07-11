@@ -1,5 +1,6 @@
 steps:
   - name: ":node:"
-    command: "npm test"
-    env:
-      BUILDKITE_DOCKER_COMPOSE_CONTAINER: "app"
+    command: npm test
+    plugins:
+      docker-compose#v2.5.0:
+        run: app
