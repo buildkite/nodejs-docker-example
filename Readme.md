@@ -11,7 +11,7 @@ To run this locally:
 ```
 $ docker-compose run app npm test
 Building app
-Step 1 : FROM node:4
+Step 1 : FROM node:8
  ---> 974e1406ebd1
 Step 2 : RUN mkdir /app
  ---> Using cache
@@ -50,7 +50,7 @@ npm info test nodejs-docker-example@
   1 passing (10ms)
 
 npm info posttest nodejs-docker-example@
-npm info ok 
+npm info ok
 ```
 
 ## License
