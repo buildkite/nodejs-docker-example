@@ -6,18 +6,10 @@ This repository is an example on how to test a [Node.js](https://nodejs.org/) pr
 
 ## Running locally
 
-To run this locally:
+To run the test locally on your development machine, you can run:
 
-```
-$ docker-compose run app npm test
-> nodejs-docker-example@ test /app
-> mocha ./test.js
-
-  String#split
-    ✓ should return an array
-
-  1 passing (20ms)
-
+```bash
+docker-compose run app npm test
 ```
 
 ## License
