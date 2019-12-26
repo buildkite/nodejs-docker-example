@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/docker-builder/node:latest
+FROM node:latest
 
 RUN mkdir /app
 WORKDIR /app
