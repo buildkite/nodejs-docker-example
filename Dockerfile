@@ -1,4 +1,4 @@
-FROM node:latest
+FROM dadi-test-registry.cn-hangzhou.cr.aliyuncs.com/daditest/test/node:latest
 
 RUN mkdir /app
 WORKDIR /app
