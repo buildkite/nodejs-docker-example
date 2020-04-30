@@ -1,5 +1,5 @@
 # FROM dadi-test-registry.cn-hangzhou.cr.aliyuncs.com/daditest/test/node:latest
-FROM registry.cn-hangzhou.aliyuncs.com/haha/eample:test
+FROM registry.cn-hangzhou.aliyuncs.com/docker-docker/example-test:latest
 
 RUN mkdir /app
 WORKDIR /app
