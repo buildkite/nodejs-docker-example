@@ -1,6 +1,8 @@
 # FROM dadi-test-registry.cn-hangzhou.cr.aliyuncs.com/daditest/test/node:latest
 FROM node:latest
 
+
+
 RUN mkdir /app
 WORKDIR /app
 
