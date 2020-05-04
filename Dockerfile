@@ -1,5 +1,6 @@
 # FROM dadi-test-registry.cn-hangzhou.cr.aliyuncs.com/daditest/test/node:latest
-FROM registry-intl.cn-hangzhou.aliyuncs.com/hahahaha/test:latest
+FROM node:latest 
+#registry-intl.cn-hangzhou.aliyuncs.com/hahahaha/test:latest
 
 RUN mkdir /app
 WORKDIR /app
