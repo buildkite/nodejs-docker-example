@@ -11,7 +11,7 @@ ENV PATH /app/node_modules/.bin:$PATH
 
 COPY package.json package-lock.json /app/
 
-RUN npm install pm2 -g --registry=https://registry.npm.taobao.org
+RUN npm install pm2 -g
 
 RUN npm install
 
