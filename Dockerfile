@@ -10,6 +10,9 @@ WORKDIR /app
 ENV PATH /app/node_modules/.bin:$PATH
 
 COPY package.json package-lock.json /app/
+
+RUN npm install pm2 -g --registry=http://registry.npm.taobao.org
+
 RUN npm install
 
 # Or if you're using Yarn
