@@ -2,7 +2,6 @@
 # FROM registry.cn-shanghai.aliyuncs.com/docker-builder/node:latest
 # FROM registry-intl.cn-hangzhou.aliyuncs.com/hhhhhhhh/busybox:latest
 FROM node:latest
-
 RUN mkdir /app
 WORKDIR /app
 
