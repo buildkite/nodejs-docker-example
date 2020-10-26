@@ -2,5 +2,5 @@ steps:
   - name: ":node:"
     command: npm test
     plugins:
-      - docker-compose#v3.5.0:
+      - docker-compose#v3.7.0:
           run: app
