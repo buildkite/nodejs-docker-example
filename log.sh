@@ -1,0 +1,3 @@
+echo "Hi there"
+
+printenv

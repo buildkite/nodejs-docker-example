@@ -1,4 +1,6 @@
 steps:
+  - name: ":eyes:"
+    command: "log.sh"
   - name: ":node:"
     command: npm test
     plugins:
