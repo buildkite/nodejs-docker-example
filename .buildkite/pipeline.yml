@@ -1,12 +1,4 @@
 steps:
-  - name: ":node: Version"
-    plugins:
-      - docker-compose#v3.9.0:
-          run: app
-          command:
-            - node
-            - --version
-
   - name: ":node:"
     command: npm test
     plugins:
