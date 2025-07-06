@@ -1,6 +1,6 @@
 name: "Node.js Docker Example"
 description: "An example pipeline that runs tests inside a Docker container using the official Node.js image."
-emoji: ":node:"
+emoji: ":nodejs:"
 color: "#F0FDF2"
 languages:
   - "JavaScript"
