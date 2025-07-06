@@ -1,5 +1,12 @@
-# Used by the 'Add to Buildkite' button in the readme
 name: "Node.js Docker Example"
+description: "An example pipeline that runs tests inside a Docker container using the official Node.js image."
+emoji: ":node:"
+color: "#F0FDF2"
+languages:
+  - "JavaScript"
+  - "Node.js"
+  - "Docker"
+  - "YAML"
 steps:
   - label: ":pipeline:"
     command: "buildkite-agent pipeline upload"
