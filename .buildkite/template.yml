@@ -4,9 +4,7 @@ emoji: ":nodejs:"
 color: "#F0FDF2"
 languages:
   - "JavaScript"
-  - "Node.js"
   - "Docker"
-  - "YAML"
 steps:
   - label: ":pipeline:"
     command: "buildkite-agent pipeline upload"
