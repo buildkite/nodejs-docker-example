@@ -1,6 +1,6 @@
 # Buildkite Node.js Docker Example
 
-[![Build status](https://badge.buildkite.com/a9d2e75d3a3a450b44b12f0e592899b98375217e54a346cde8.svg?branch=main)](https://buildkite.com/buildkite/nodejs-docker-example)
+[![Build status](https://badge.buildkite.com/a9d2e75d3a3a450b44b12f0e592899b98375217e54a346cde8.svg?branch=main)](https://buildkite.com/buildkite/nodejs-docker-example/builds/latest?branch=main)
 [![Add to Buildkite](https://img.shields.io/badge/Add%20to%20Buildkite-14CC80)](https://buildkite.com/new)
 
 This repository is an example [Buildkite](https://buildkite.com/) pipeline that tests a [Node.js](https://nodejs.org/) project using [Docker](https://docker.com/) and the standard [Node.js Docker image](https://hub.docker.com/_/node/).
