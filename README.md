@@ -7,6 +7,8 @@ This repository is an example [Buildkite](https://buildkite.com/) pipeline that 
 
 👉 **See this example in action:** [buildkite/nodejs-docker-example](https://buildkite.com/buildkite/nodejs-docker-example/builds/latest?branch=main)
 
+See the full [Getting Started Guide](https://buildkite.com/docs/guides/getting-started) for step-by-step instructions on how to get this running, or try it yourself:
+
 [![Add to Buildkite](https://buildkite.com/button.svg)](https://buildkite.com/new)
 
 <a href="https://buildkite.com/buildkite/nodejs-docker-example/builds/latest?branch=main">
